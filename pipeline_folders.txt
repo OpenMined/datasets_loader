@@ -1,0 +1,34 @@
+# Pipeline Folders Configuration
+#
+# This file defines the folder structure for the Example Project pipeline.
+# Each line specifies a folder and its permissions in JSON format.
+# The "me" placeholder in permissions will be replaced with the user's email.
+
+# Input folder: Where new data or tasks are initially placed
+# Permissions allow the owner and anyone (GLOBAL) to read and write
+# input {"admin": ["me"], "read": ["me", "GLOBAL"], "write": ["me", "GLOBAL"], "terminal": false}
+
+# Running folder: Where tasks or data are stored while being processed
+# Permissions are the same as the input folder to allow for easy movement of data
+# running {"admin": ["me"], "read": ["me", "GLOBAL"], "write": ["me", "GLOBAL"], "terminal": false}
+
+# Done folder: Where completed tasks or processed data are stored
+# Permissions allow for global read access, useful for sharing results
+# done {"admin": ["me"], "read": ["me", "GLOBAL"], "write": ["me", "GLOBAL"], "terminal": false}
+
+# Note: The 'terminal' flag is set to false for all folders, indicating
+# that these folders' permissions should extend to all subfolders in them 
+# (unless another syftperm overrides a subfolder)
+
+# To add more folders to your pipeline, follow the same format:
+# folder_name {"admin": ["me"], "read": [...], "write": [...], "terminal": boolean}
+
+mock {"admin": ["me"], "read": ["me", "GLOBAL"], "write": ["me", "GLOBAL"], "terminal": false}
+real {"admin": ["me"], "read": ["me", "GLOBAL"], "write": ["me"], "terminal": false}
+
+# Example of a more restricted folder:
+# sensitive_data {"admin": ["me"], "read": ["me"], "write": ["me"], "terminal": true}
+# sensitive_data {"admin": ["me"], "read": ["me", "person@gmail.com"], "write": ["me"], "terminal": true}
+
+# if you're walking through the tutorial, next you should proceed to
+# the main_1_day.py file

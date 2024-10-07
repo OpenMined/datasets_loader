@@ -1,0 +1,115 @@
+Schema for /Users/atrask/Desktop/SyftBox/apps/datasets_loader/static_datasets/demo_spotify/assets/asset_2/Streaming_History_Audio_2012-2014_1.json
+
+Field: 
+Type: array
+Occurrences: 3
+Optional: No
+
+Field: ts
+Type: string
+Occurrences: 6
+Optional: No
+
+Field: username
+Type: string
+Occurrences: 6
+Optional: No
+
+Field: platform
+Type: string
+Occurrences: 6
+Optional: No
+
+Field: ms_played
+Type: integer
+Occurrences: 6
+Optional: No
+
+Field: conn_country
+Type: string
+Occurrences: 6
+Optional: No
+
+Field: ip_addr_decrypted
+Type: string
+Occurrences: 6
+Optional: No
+
+Field: user_agent_decrypted
+Type: string
+Occurrences: 6
+Optional: No
+
+Field: master_metadata_track_name
+Type: string
+Occurrences: 6
+Optional: No
+
+Field: master_metadata_album_artist_name
+Type: string
+Occurrences: 6
+Optional: No
+
+Field: master_metadata_album_album_name
+Type: string
+Occurrences: 6
+Optional: No
+
+Field: spotify_track_uri
+Type: string
+Occurrences: 6
+Optional: No
+
+Field: episode_name
+Type: nullable null
+Occurrences: 6
+Null/Empty Occurrences: 3
+Optional: Yes
+
+Field: episode_show_name
+Type: nullable null
+Occurrences: 6
+Null/Empty Occurrences: 3
+Optional: Yes
+
+Field: spotify_episode_uri
+Type: nullable null
+Occurrences: 6
+Null/Empty Occurrences: 3
+Optional: Yes
+
+Field: reason_start
+Type: string
+Occurrences: 6
+Optional: No
+
+Field: reason_end
+Type: string
+Occurrences: 6
+Optional: No
+
+Field: shuffle
+Type: boolean
+Occurrences: 6
+Optional: No
+
+Field: skipped
+Type: boolean
+Occurrences: 6
+Optional: No
+
+Field: offline
+Type: boolean
+Occurrences: 6
+Optional: No
+
+Field: offline_timestamp
+Type: integer
+Occurrences: 6
+Optional: No
+
+Field: incognito_mode
+Type: boolean
+Occurrences: 6
+Optional: No
+

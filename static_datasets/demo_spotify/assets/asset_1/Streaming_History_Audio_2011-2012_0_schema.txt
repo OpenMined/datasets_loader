@@ -1,0 +1,121 @@
+Schema for /Users/atrask/Desktop/SyftBox/apps/datasets_loader/static_datasets/demo_spotify/assets/asset_1/Streaming_History_Audio_2011-2012_0.json
+
+Field: 
+Type: array
+Occurrences: 8
+Optional: No
+
+Field: ts
+Type: string
+Occurrences: 16
+Optional: No
+
+Field: username
+Type: string
+Occurrences: 16
+Optional: No
+
+Field: platform
+Type: string
+Occurrences: 16
+Optional: No
+
+Field: ms_played
+Type: integer
+Occurrences: 16
+Optional: No
+
+Field: conn_country
+Type: string
+Occurrences: 16
+Optional: No
+
+Field: ip_addr_decrypted
+Type: string
+Occurrences: 16
+Optional: No
+
+Field: user_agent_decrypted
+Type: nullable null
+Occurrences: 16
+Null/Empty Occurrences: 8
+Optional: Yes
+
+Field: master_metadata_track_name
+Type: nullable mixed (mixed (null, string), string)
+Occurrences: 16
+Null/Empty Occurrences: 6
+Optional: Yes
+
+Field: master_metadata_album_artist_name
+Type: nullable mixed (mixed (null, string), string)
+Occurrences: 16
+Null/Empty Occurrences: 6
+Optional: Yes
+
+Field: master_metadata_album_album_name
+Type: nullable mixed (mixed (null, string), string)
+Occurrences: 16
+Null/Empty Occurrences: 6
+Optional: Yes
+
+Field: spotify_track_uri
+Type: nullable mixed (mixed (null, string), string)
+Occurrences: 16
+Null/Empty Occurrences: 6
+Optional: Yes
+
+Field: episode_name
+Type: nullable null
+Occurrences: 16
+Null/Empty Occurrences: 8
+Optional: Yes
+
+Field: episode_show_name
+Type: nullable null
+Occurrences: 16
+Null/Empty Occurrences: 8
+Optional: Yes
+
+Field: spotify_episode_uri
+Type: nullable null
+Occurrences: 16
+Null/Empty Occurrences: 8
+Optional: Yes
+
+Field: reason_start
+Type: string
+Occurrences: 16
+Optional: No
+
+Field: reason_end
+Type: string
+Occurrences: 16
+Optional: No
+
+Field: shuffle
+Type: boolean
+Occurrences: 16
+Optional: No
+
+Field: skipped
+Type: boolean
+Occurrences: 16
+Optional: No
+
+Field: offline
+Type: boolean
+Occurrences: 16
+Optional: No
+
+Field: offline_timestamp
+Type: integer
+Occurrences: 16
+Optional: No
+
+Field: incognito_mode
+Type: nullable null
+Occurrences: 16
+Null/Empty Occurrences: 8
+Optional: Yes
+

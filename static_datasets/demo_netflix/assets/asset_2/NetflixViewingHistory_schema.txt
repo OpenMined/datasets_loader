@@ -1,0 +1,16 @@
+Schema for NetflixViewingHistory.csv
+Total rows: 38
+
+Column: Title
+Type: string
+Max Length: 75
+Null Count: 0
+Unique Values: 0
+
+Column: Date
+Type: date
+Date Format: MM/DD/YY
+Max Length: 7
+Null Count: 0
+Unique Values: 0
+

@@ -1,0 +1,43 @@
+# Welcome to the requirements.txt file!
+# This file specifies the Python packages that your project depends on.
+# UV (the package manager and virtual environment tool) uses this file
+# to install and manage your project's dependencies.
+
+# Here's how UV uses this file:
+
+# 1. In run.sh, the update_dependencies() function calls:
+#    uv pip install -r requirements.txt
+#    This installs all packages listed here into the project's virtual environment.
+
+# 2. When running Python scripts, run.sh uses:
+#    uv run python <script_name>.py
+#    This ensures the script runs in the virtual environment with all dependencies available.
+
+# Now, let's look at the actual dependencies:
+
+# Just as an example, this installs the latest version of the transformers library from PyPI
+transformers
+lorem
+
+# This installs a specific version of syftbox from a custom URL
+# The .whl file is a wheel, a pre-built package format for Python
+http://20.168.10.234:8080/wheel/syftbox-0.1.0-py3-none-any.whl
+
+# To add more dependencies, simply list them here, one per line.
+# You can specify versions like this:
+# package_name==1.2.3  # for an exact version
+# package_name>=1.2.3  # for a minimum version
+# package_name~=1.2.3  # for compatible versions
+
+# UV will ensure all listed packages are installed and available to your scripts.
+# This helps maintain consistency across different environments and executions.
+
+# Next steps:
+# 1. Try adding a new dependency your project needs.
+# 2. Run the update_dependencies function to see how UV installs it.
+# 3. Use the new package in one of your Python scripts (like main_1_day.py).
+
+# Remember: Keep this file updated as your project's dependencies change!
+
+# Congratulations! You've completed the tutorial of example_project! Hope you enjoy
+# building your broad listening applications! Proceed back to README.md for final instructions.
